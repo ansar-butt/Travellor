@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3660033">
+
+
+    <TextView
+        android:id="@+id/changePasswordUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_marginTop="28dp"
+        android:text="@string/username"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="170dip"
+        android:layout_height="63dip"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/submit"
+        app:cornerRadius="20dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/oldPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="@string/oldPassword"
+        android:ems="10"
+        android:hint="@string/oldPassword"
+        android:inputType="textPassword"
+        android:textColorHint="#FF99CC"
+        app:layout_constraintBottom_toTopOf="@id/newPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/changePasswordUsername"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:autofillHints="@string/newPassword"
+        android:ems="10"
+        android:hint="@string/newPassword"
+        android:inputType="textPassword"
+        android:textColorHint="#FF99CC"
+        app:layout_constraintBottom_toTopOf="@+id/newPasswordConfirmed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/newPasswordConfirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="@string/confirmNewPassword"
+        android:ems="10"
+        android:hint="@string/confirmNewPassword"
+        android:inputType="textPassword"
+        android:textColorHint="#FF99CC"
+        app:layout_constraintBottom_toTopOf="@+id/changePasswordButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

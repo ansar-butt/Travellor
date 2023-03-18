@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#001933">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#001933"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/hotelImage"
+            android:layout_width="match_parent"
+            android:layout_height="220dip"
+            android:contentDescription="@string/regionSelectedImageDescription"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dip"
+            android:backgroundTint="#001933">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dip">
+
+                <TextView
+                    android:id="@+id/hotelLocation"
+                    android:layout_width="180dip"
+                    android:layout_height="60dip"
+                    android:text="@string/hotelLocation"
+                    android:translationY="-20dip"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"/>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6" />
+
+                <Button
+                    android:id="@+id/bookingButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dip"
+                    android:backgroundTint="#660066"
+                    android:text="@string/book"
+                    android:textSize="20sp"
+                    app:cornerRadius="20dip" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/hotelAddress"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:text="@string/hotelAddress"
+                android:translationY="60dip"
+                android:textColor="@color/white"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/individualHotelRent"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:text="@string/hotelRent"
+                android:translationY="120dip"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#001933">
+
+            <TextView
+                android:id="@+id/hotelDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hotelDescription"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

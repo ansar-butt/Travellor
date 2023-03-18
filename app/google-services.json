@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "334973059968",
+    "project_id": "travellor-f91bd",
+    "storage_bucket": "travellor-f91bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334973059968:android:d1eca3f83b4a97fad3f765",
+        "android_client_info": {
+          "package_name": "com.example.travellor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334973059968-8lveae4jnd8ptfip24dr2m07d3pv3s2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJEPADJo1gtiyFU4svsYcv5-cvLzJc53w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334973059968-8lveae4jnd8ptfip24dr2m07d3pv3s2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

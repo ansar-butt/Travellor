@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:layout_margin="10dip"
+        android:layout_marginStart="9dip"
+        android:layout_marginEnd="9dip"
+        android:backgroundTint="#001933"
+        app:cardCornerRadius="20dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/bookingLoaction"
+                android:layout_width="wrap_content"
+                android:layout_height="55dip"
+                android:layout_marginStart="16dip"
+                android:layout_weight="0.8"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533"
+                tools:text="@string/hotelAddress" />
+
+            <TextView
+                android:id="@+id/bookingEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="48dip"
+                android:layout_weight="0.4"
+                android:text="@string/bookingEnd"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/unBook"
+                app:layout_constraintStart_toEndOf="@+id/bookingLoaction"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/unBook"
+                android:layout_width="wrap_content"
+                android:layout_height="65dip"
+                android:layout_marginEnd="16dip"
+                android:layout_weight="0.05"
+                android:backgroundTint="#660066"
+                android:text="@string/unbook"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

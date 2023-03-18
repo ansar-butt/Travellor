@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Travellor</string>
+    <string name="main_image_description">The Image for the various Regions. Mountains, Seaside etc.</string>
+    <string name="region_type">Region Type</string>
+    <string name="login_text">Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="signup_redirect">Don\'t have an Account? SignUp</string>
+    <string name="login_redirect">Already have an Account? Login</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="signup_username">Username</string>
+    <string name="signup_password">Password</string>
+    <string name="Filter">Search Location</string>
+    <string name="regionSelectedImageDescription">Image of Home Locations</string>
+    <string name="loactionRent">Price in Rs.</string>
+    <string name="hotelLocation">Hotel Location</string>
+    <string name="hotelAddress">Hotel Address</string>
+    <string name="hotelRent">Hotel Rent</string>
+    <string name="book">Book</string>
+    <string name="hotelDescription">Hotel Description</string>
+    <string name="unbook">Un-Book</string>
+    <string name="bookingEnd">Ending Date</string>
+    <string name="home">Home</string>
+    <string name="logout">LogOut</string>
+    <string name="myBooking">My Booking</string>
+    <string name="changePassword">Change Password</string>
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="travellor">Travellor</string>
+    <string name="don_t_have_an_account">Don\'t have an account |</string>
+    <string name="password">password</string>
+    <string name="password2">password</string>
+    <string name="dont_have_an_account_yet">Dont have an account yet!</string>
+    <string name="card_number">card number</string>
+    <string name="log_in_redirect">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_heading">Sign Up</string>
+    <string name="sign_up_redirect">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="regions">Regions</string>
+
+</resources>
